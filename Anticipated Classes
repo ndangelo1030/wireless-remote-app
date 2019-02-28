@@ -1,0 +1,7 @@
+These classes are fluid and are subject to change (adding or removal) 
+
+Admin -> admin functions
+ChangePassword -> change the password of the current user
+ChangeEmail -> change the email of the current user
+SubscriptionHandler -> subscribe/unsubscribe to services
+PaymentHandler -> take input for payment options for subscription services
