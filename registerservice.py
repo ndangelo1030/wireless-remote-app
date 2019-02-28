@@ -1,4 +1,5 @@
 from user import User
+from loginrepo import LoginRepo
 
 class RegisterService:
     def __init__(self,repository):
