@@ -7,6 +7,7 @@ class LoginService:
 
     def login_user(self, username, password):
         login = self.repository.find(username, password)
+        
         return login
 
 

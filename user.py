@@ -2,7 +2,7 @@ class User:
     def __init__(self,username,password):
         self.username = username
         self.password = password
-class NewUser:
+class RegUser:
     def __init__(self, username, password, email, fname, lname):
         self.username = username
         self.password = password
@@ -11,4 +11,3 @@ class NewUser:
         self.lname = lname
 
         
-
