@@ -22,14 +22,8 @@ def main():
     login_service = LoginService(LoginRepo()) #uses to call to LoginRepo class
     user = login_service.login_user(input("Enter username: "), input("Enter Password: ")) #prompts user for username / password
     reg_serv = RegisterService(LoginSearch())
-    reg_user = reg_serv.
     print(user.username, user.password)
     print(registeredusers)
-   # if user ==
-    #        print("success")
-    #else:
-     #       print("fail")
-
 
 
 
