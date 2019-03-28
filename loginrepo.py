@@ -10,3 +10,6 @@ class LoginAdd:
 class LoginSearch:
     def find(self, username, fname, lname):
         return RegUser(username, fname, lname)
+class TrialLogin:
+    def find(self,username,password,email,trail)
+        return TrialUser(username,password,email,trail)
