@@ -9,7 +9,10 @@ class LoginService:
         login = self.repository.find(username, password)
         
         return login
-
+    def forget_pass(self,username,email,password)
+        pwreset = self.repository.clear(password)
+    def addnewpass(self,username,password,email)
+        newpw = self.repository.add(password)
 
 
 
