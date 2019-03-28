@@ -9,5 +9,12 @@ class RegUser:
         self.email = email
         self.fname = fname
         self.lname = lname
-
         
+ class TrialUser:
+    def __init__(self, username,password,email,fname,lname,trial):
+        self.username = username
+        self.password = password
+        self.email = email
+        self.fname = fname
+        self.lname = lname
+        self.trial = trial
