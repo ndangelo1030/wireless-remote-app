@@ -1,0 +1,20 @@
+#Account termination
+import os
+import getpass
+import sys
+import MySQLdb
+import User from user
+
+    Class DeleteAccount:
+    def__init__(self,repository):
+      self.repository = repository
+
+  def from_user(cls)
+	return cls(
+	raw_input('Are you sure you would like to delete your account? '),
+	
+	if raw_input == "Yes":
+	print("Ok " self.fname, self.lname "your account has been terminated.\n Thank you for your business.")
+
+	elif raw_input == "No":
+	return self.remoteMain
